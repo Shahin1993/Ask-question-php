@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 16, 2017, 9:00:43 PM
+    Author     : Shahin
+*/
+
+body{
+    margin: 0;
+}
+.carousel-inner-img{
+    -webkit-filter:grayscale(90%);
+    filter:grayscale(90%);
+    width:100%;
+    margin: auto;
+}
+@media(max-width:600px){
+    .carousel-caption{
+    display: none;
+}
+}
+
+.navbar{
+    margin-bottom: 0;
+    color:white;
+}
+.nav{
+    color: white;
+}
+label.error{
+    color: red;
+}
+@import "reset.css";@import "core.css";@import "cmxformTemplate.css";@import "cmxform.css";
+.thumbnail img{
+    width:150px;
+    height: 100px;
+}
+.fft{
+    margin-bottom: 0;
+}
+.feedback{
+    margin-bottom: 0;
+}
